@@ -24,7 +24,7 @@ int main(int argc, char** argv) {
   std::cout << "\nA - B =\n" << Y;
 
   SquareMatrix Z = A * B;
-  //std::cout << "\nA * B =\n" << Z;
+  std::cout << "\nA * B =\n" << Z;
 
   A.transpose();
   std::cout << "\nA transposed:\n" << A;
